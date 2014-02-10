@@ -5,24 +5,6 @@
             <version>0.1.0</version>
         </MB_Translate>
     </modules>
-    <frontend>
-        <routers>
-            <web>
-                <use>standard</use>
-                <args>
-                    <module>Company_Web</module>
-                    <frontName>web</frontName>
-                </args>
-            </web>
-        </routers>
-        <layout>
-            <updates>
-                <web>
-                    <file>web.xml</file>
-                </web>
-            </updates>
-        </layout>
-    </frontend>  
     <global>
         <models>
           <widget>
@@ -37,4 +19,22 @@
             </mb_translate>
         </helpers>
     </global>
+    <adminhtml>
+        <translate>
+            <modules>
+                <MB_Translate>
+                    <files>
+                        <default>MB_Translate.csv</default>
+                    </files>
+                </MB_Translate>
+            </modules>
+        </translate>
+    </adminhtml>
+    <default>
+        <cms>
+            <translate>
+                <default_module>page</default_module>
+            </translate>
+        </cms>
+    </default>
 </config>
