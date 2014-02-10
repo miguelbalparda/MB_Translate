@@ -10,7 +10,7 @@ class MB_Translate_Model_Template_Filter extends Mage_Widget_Model_Template_Filt
         $params = $this->_getIncludeParameters($construction[2]);
         $text = $params['text'];
         $module = (!empty($params['module'])) ? $this->_getTranslateModuleName($params['module']) : $this->_getDefaultModule();
-        return Mage::helper($module)->__($module.'--'.$text);
+        return Mage::helper($module)->__($text);
     }
     protected function _getTranslateModuleName($module)
     {
