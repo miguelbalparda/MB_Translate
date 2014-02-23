@@ -1,6 +1,8 @@
 MB_Translate
 ============
 
+Magento Connect: http://www.magentocommerce.com/magento-connect/cms-translate.html
+
 English:
 
 Translate CMS Pages in Magento.
