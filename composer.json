@@ -1,0 +1,13 @@
+{
+    "name": "mb/translate",
+    "type": "magento-module",
+    "license":"OSL-3.0",
+    "description":"Translate CMS Pages in Magento 1.x",
+    "homepage":"https://github.com/miguelbalparda/MB_Translate",
+    "authors":[
+        {
+            "name":"Miguel Balparda",
+            "email":"miguel.balparda@moozo.com.ar"
+        }
+    ]
+}
