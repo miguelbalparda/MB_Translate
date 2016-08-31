@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<layout version="0.1.0">
+    <default>
+        <!-- Enable translation in head on all pages -->
+        <reference name="head">
+            <action method="setTranslate">true</action>
+        </reference>
+    </default>
+    <print>
+        <!-- Enable translation in head on all pages -->
+        <reference name="head">
+            <action method="setTranslate">true</action>
+        </reference>
+    </print>
+    <!-- Replace header block -->
+    <cms_page translate="label">
+        <reference name="content">
+            <block type="mb_translate/core_template" name="page_content_heading" template="cms/content_heading.phtml"/>
+        </reference>
+    </cms_page>
+</layout>

@@ -1,3 +1,4 @@
-app/code/local/MB/Translate         app/code/local/MB/Translate
-app/etc/modules/MB_Translate.xml    app/etc/modules/MB_Translate.xml
-app/locale/en_US/*.csv              app/locale/en_US/
+app/code/local/MB/Translate                               app/code/local/MB/Translate
+app/etc/modules/MB_Translate.xml                          app/etc/modules/MB_Translate.xml
+app/locale/en_US/*.csv                                    app/locale/en_US/
+app/design/frontend/base/default/layout/mb_translate.xml  app/design/frontend/base/default/layout/mb_translate.xml

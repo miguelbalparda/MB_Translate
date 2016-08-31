@@ -9,6 +9,8 @@ Translate CMS Pages in Magento.
 
 Use: In any CMS Page or Block use {{translate text="Text here"}} and the text will be translatable with the Inline translator.
 
+Besides the inline translator the module will also translate title in head and header block as well as enable translation for page breadcrumbs.
+
 Source: http://www.magentocommerce.com/boards/viewthread/179598/#
 
 If you want this to be a part of Magento2, add a +1 <a href="https://github.com/magento/magento2/pull/875" target="_blank">here</a>.
