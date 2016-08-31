@@ -18,21 +18,21 @@ class MB_Translate_Block_Page_Html_Head extends Mage_Page_Block_Html_Head
     public function getTitle()
     {
         $title = parent::getTitle();
-        if ($this->shouldTranslate) return $this->__($title);
+        if ($this->shouldTranslate) return Mage::helper('mb_translate')->getTranslateModule()->__($title);
         return $title;
     }
 
     public function getDescription()
     {
         $description = parent::getDescription();
-        if ($this->shouldTranslate) return $this->__($description);
+        if ($this->shouldTranslate) return Mage::helper('mb_translate')->getTranslateModule()->__($description);
         return $description;
     }
 
     public function getKeywords()
     {
         $keywords = parent::getKeywords();
-        if ($this->shouldTranslate) return $this->__($keywords);
+        if ($this->shouldTranslate) return Mage::helper('mb_translate')->getTranslateModule()->__($keywords);
         return $keywords;
     }
 }

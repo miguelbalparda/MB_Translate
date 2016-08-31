@@ -30,6 +30,15 @@
             </page>
         </blocks>
     </global>
+    <frontend>
+        <layout>
+            <updates>
+                <mb_translate>
+                    <file>mb_translate.xml</file>
+                </mb_translate>
+            </updates>
+        </layout>
+    </frontend>
     <adminhtml>
         <translate>
             <modules>
