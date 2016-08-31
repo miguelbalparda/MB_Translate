@@ -18,6 +18,17 @@
                 <class>MB_Translate_Helper</class>
             </mb_translate>
         </helpers>
+        <blocks>
+            <mb_translate>
+                <class>MB_Translate_Block</class>
+            </mb_translate>
+            <page>
+                <rewrite>
+                    <html_breadcrumbs>MB_Translate_Block_Page_Html_Breadcrumbs</html_breadcrumbs>
+                    <html_head>MB_Translate_Block_Page_Html_Head</html_head>
+                </rewrite>
+            </page>
+        </blocks>
     </global>
     <adminhtml>
         <translate>
